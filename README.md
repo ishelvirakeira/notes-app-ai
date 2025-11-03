@@ -2,7 +2,7 @@ A personal note-taking application that allows users to create, edit, delete, an
 
 <img width="950" height="435" alt="notes" src="https://github.com/user-attachments/assets/17331e8f-3eca-4fb3-87d0-249dd9bc340b" />
 
-Lessons Learned
+Lessons Learned:
 
 Implementing user authentication with Passport.js and session management to secure user data.
 
@@ -13,3 +13,4 @@ Building CRUD functionality (Create, Read, Update, Delete) for notes in a web ap
 Dynamically updating the UI using JavaScript for actions like previewing, editing, and deleting notes.
 
 Applying CSS and responsive design to create a user-friendly interface.
+
