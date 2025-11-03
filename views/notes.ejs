@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Notes</title>
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/main.js"></script>
+</head>
+<body>
+  <header>
+    <h2>Welcome, <%= user.name %></h2>
+    <nav>
+      <a href="/auth/logout">Logout</a>
+    </nav>
+  </header>
+
+  <main>
+    <form action="/notes" method="POST">
+      <input type="hidden" name="noteId" id="noteId">
+      <input type="text" name="title" placeholder="Title" required>
+      <textarea name="content" placeholder="Write your note" required></textarea>
+      <button type="submit">Save Note</button>
+    </form>
+
+    <ul id="notes">
+      <% notes.forEach(note => { %>
+        <li>
+          <h3><%= note.title %></h3>
+          <p><%= note.content %></p>
+          <span><%= note.dateCreated.toLocaleDateString() %></span> <!--ref: https://stackoverflow.com/questions/27939773/tolocaledatestring-short-format-->
+          <button class="delete-btn" data-id="<%= note._id %>">x</button>
+        </li>
+      <% }) %>
+    </ul>
+  </main>
+</body>
+</html>
