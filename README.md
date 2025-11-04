@@ -8,13 +8,14 @@ Tools used: JavaScript, EJS templates, Node.js, MongoDB, Express
 
 Lessons Learned:
 
-Implementing user authentication with Passport.js and session management to secure user data.
+- Implementing user authentication with Passport.js and session management to secure user data.
 
-Structuring a MongoDB database to associate notes with specific users.
+- Structuring a MongoDB database to associate notes with specific users.
 
-Building CRUD functionality (Create, Read, Update, Delete) for notes in a web application.
+- Building CRUD functionality (Create, Read, Update, Delete) for notes in a web application.
 
-Dynamically updating the UI using JavaScript for actions like previewing, editing, and deleting notes.
+- Dynamically updating the UI using JavaScript for actions like previewing, editing, and deleting notes.
+
 
 
 
