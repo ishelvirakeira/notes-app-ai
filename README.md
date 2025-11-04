@@ -1,6 +1,10 @@
-A personal note-taking application that allows users to create, edit, delete, and view notes. The app is designed for authenticated users, ensuring each user only has access to their own notes. The interface includes a Markdown editor for formatting notes.
+This is a personal note-taking application that allows users to create, edit, delete, and view notes. The app is designed for authenticated users, ensuring each user only has access to their own notes.
+
+Find the live demo at https://notes-app-f4cf.onrender.com/
 
 <img width="950" height="435" alt="notes" src="https://github.com/user-attachments/assets/17331e8f-3eca-4fb3-87d0-249dd9bc340b" />
+
+Tools used: JavaScript, EJS templates, Node.js, MongoDB, Express
 
 Lessons Learned:
 
@@ -12,5 +16,5 @@ Building CRUD functionality (Create, Read, Update, Delete) for notes in a web ap
 
 Dynamically updating the UI using JavaScript for actions like previewing, editing, and deleting notes.
 
-Applying CSS and responsive design to create a user-friendly interface.
+
 
