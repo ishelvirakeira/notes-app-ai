@@ -1,21 +1,8 @@
-This is a personal note-taking application that allows users to create, edit, delete, and view notes. The app is designed for authenticated users, ensuring each user only has access to their own notes.
+### Project Overview
+This project is a notes application that I upgraded with two AI-powered features, an AI rewriting tool and an AI summarizer. Users can rewrite any note in different tones (concise, professional, friendly) or instantly generate a short, clear summary of longer text. These features show how I integrate LLMs APIs into real applications to improve everyday workflows while keeping the experience fast, intuitive, and user-focused.
+I built this project to demonstrate my ability to prototype AI features quickly, design AI-first interfaces, and ship functional tools under tight timelines. 
 
-Find the live demo at https://notes-app-f4cf.onrender.com/
-
-<img width="950" height="435" alt="notes" src="https://github.com/user-attachments/assets/17331e8f-3eca-4fb3-87d0-249dd9bc340b" />
-
-Tools used: JavaScript, EJS templates, Node.js, MongoDB, Express
-
-Lessons Learned:
-
-- Implementing user authentication with Passport.js and session management to secure user data.
-
-- Structuring a MongoDB database to associate notes with specific users.
-
-- Building CRUD functionality (Create, Read, Update, Delete) for notes in a web application.
-
-- Dynamically updating the UI using JavaScript for actions like previewing, editing, and deleting notes.
-
+Tools used: MongoDB, Express, Node.js, OpenAI API
 
 
 
