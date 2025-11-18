@@ -18,6 +18,29 @@
       <input type="hidden" name="noteId" id="noteId">
       <input type="text" name="title" placeholder="Title" required>
       <textarea name="content" placeholder="Write your note" required></textarea>
+      <!--AI Rewrite Controls-->
+      <div class="style">
+        <label for="tone">Rewrite in a way that is:</label>
+        <select id="tone">
+          <option value="concise">Concise</option>
+          <option value="pro">Professional</option>
+          <option value="friendly">Friendly</option>
+        </select>
+        <button type="button" id="rewriteBtn">Rewrite with AI</button>
+      </div>
+      <!--AI Rewrite Output-->
+
+      <div id="output"></div>
+
+      <!--Ai Summary controls-->
+      <div class="summary-box">
+        <button type="button1" id="summarizeBtn">Summarize Note</button>
+      </div>
+
+      <!--AI Summary output-->
+      <div id="summaryOutput"></div>
+    
+
       <button type="submit">Save Note</button>
     </form>
 

@@ -82,6 +82,84 @@ form p a:hover {
   text-decoration: underline;
 }
 
+.style{
+  margin-top: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+
+}
+.style label{
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+#tone{
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  background-color: white;
+  cursor: pointer;
+
+}
+#rewriteBtn{
+  padding: 6px 12px;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+
+}
+
+#rewriteBtn:hover {
+  background-color: #357ab7;
+}
+/*AI output box*/
+#output {
+  margin-top: 12px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  white-space: pre-wrap;
+  font-size: 14px;
+  line-height: 1.5;
+}
+/*Summary Button*/
+#summarizeBtn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#summarizeBtn:hover {
+  background-color: #1e7e34;
+}
+
+/*Summary Output*/
+#summaryOutput {
+  margin-top: 12px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  white-space: pre-wrap;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 .error {
   color: orange;
   margin-bottom: 1rem;
